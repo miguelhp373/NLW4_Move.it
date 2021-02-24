@@ -12,11 +12,13 @@
 
 ## Iniciando o Projeto:
 
-`yarn start` ou `npm start`
+`yarn dev` ou `npm dev`
 ***
 # :paperclip: Histórico de Versões
 * 1.0
-    * Versão Inicial
+    * VERSÂO NLW#4 - Diego Fernandes Rocketseat
+* 1.5
+   *
 ***
 # 📝 License
 
