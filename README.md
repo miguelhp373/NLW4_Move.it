@@ -16,7 +16,7 @@
 ***
 # :paperclip: Histórico de Versões
 * 1.0
-    * VERSÂO NLW#4 - Diego Fernandes Rocketseat
+    * VERSÃO NLW#4 - Diego Fernandes Rocketseat
 * 1.5
    *
 ***
