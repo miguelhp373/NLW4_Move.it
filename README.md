@@ -12,7 +12,7 @@
 
 ## Iniciando o Projeto:
 
-`yarn dev` ou `npm dev`
+`yarn dev` ou `npm run dev`
 ***
 # :paperclip: Histórico de Versões
 * 1.0
