@@ -1,8 +1,13 @@
 # Move.it
-> Este App Auxilia Pessoas a Se Exercitar-se e se Movimentar de Tempos em tempos no Modelo Pomodoro
+<h1 align="center">
+    <img alt="Move.it" title="Move.it" src=".github/moveit.svg" />
+</h1>
+> O Move.it veio para te lembrar de se exercitar sempre! 💜
 
-
-![](../header.png)
+## :rocket:Tecnologias
+* ReactJs
+* Next.Js
+* Typescript
 
 # 💻 Instalação
 
@@ -12,11 +17,13 @@
 
 ## Iniciando o Projeto:
 
-`yarn start` ou `npm start`
+`yarn dev` ou `npm run dev`
 ***
 # :paperclip: Histórico de Versões
 * 1.0
-    * Versão Inicial
+    * VERSÃO NLW#4 - Diego Fernandes Rocketseat
+* 1.5
+   *
 ***
 # 📝 License
 
