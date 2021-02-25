@@ -3,7 +3,7 @@
     <img alt="Move.it" title="Move.it" src=".github/icon.svg" />
 </h1>
 
-### O Move.it veio para te lembrar de se exercitar sempre! 💜
+<h3 align='center'>O Move.it veio para te lembrar de se exercitar sempre! 💜</h3>
 
 ## :rocket:Tecnologias
 * ReactJs
