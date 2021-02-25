@@ -53,8 +53,9 @@ export function ChallengesProvider({children}:ChallengesProviderProps){//props
         new Audio('/notification.mp3').play();//toca o audio da notificação
 
         if(Notification.permission === 'granted'){//verifica se a notificação foi permitida para notificar
-            new Notification('Novo desafio 🎉',{//cria notificação
+            new Notification('Move.it - Novo desafio 🎉',{//cria notificação
                 body:`Valendo ${challenge.amount} xp`,
+                icon:'favicon.png'
                 
             })
         }
