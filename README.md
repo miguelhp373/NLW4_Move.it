@@ -1,8 +1,13 @@
 # Move.it
-> Este App Auxilia Pessoas a Se Exercitar-se e se Movimentar de Tempos em tempos no Modelo Pomodoro
+> O Move.it veio para te lembrar de se exercitar sempre! 💜
+<h1 align='center'>
+   <img src'https://github.com/miguelhp373/NLW4_Trilha_React_Js/blob/main/public/logo-full.svg'/>
+</h1>
 
-
-![](../header.png)
+## :rocket:Tecnologias
+* ReactJs
+* Next.Js
+* Typescript
 
 # 💻 Instalação
 
