@@ -2,7 +2,8 @@
 <h1 align="center">
     <img alt="Move.it" title="Move.it" src=".github/icon.svg" />
 </h1>
-> O Move.it veio para te lembrar de se exercitar sempre! 💜
+
+### O Move.it veio para te lembrar de se exercitar sempre! 💜
 
 ## :rocket:Tecnologias
 * ReactJs
