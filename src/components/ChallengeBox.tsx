@@ -1,13 +1,30 @@
-import { useContext } from 'react'
+import { useContext } from 'react'//importa a context api do react
 import { ChallengesContext } from '../contexts/ChallengesContext'
+import { CountdownContext } from '../contexts/CountdownContext'
 import styles from '../styles/components/ChallengeBox.module.css'
 
 export function ChallengeBox(){
-    const { activeChallenge, resetChallenge } = useContext(ChallengesContext)  
+
+    //chama a as funcoes e o estado do challenge context 
+    const { activeChallenge, resetChallenge, completeChallenge } = useContext(ChallengesContext);
+    
+    const { resetCountdown } = useContext(CountdownContext); //chama a funcao que reseta o timer do countdown context api
+
+    function handleChallengeSucceeded() {//completa  o desafio e reinicia o cronometro
+        completeChallenge()
+        resetCountdown()
+      }
+    
+      function handleChallengeFailed() {//reinicia o desafio e reseta o cronometro
+        resetChallenge()
+        resetCountdown()
+      }
+
 
 return(
     <div className={styles.ChallengeBoxContainer}>
-        {activeChallenge?(
+
+        {activeChallenge?(//cronometro ativo mostra essa parte
             <div className={styles.ChallegeActive}>
                 <header>Ganhe {activeChallenge.amount} xp</header>
 
@@ -20,7 +37,7 @@ return(
                 <button 
                 type='button'
                 className={styles.ChallengeFailedButton}
-                onClick={resetChallenge}
+                onClick = {handleChallengeFailed}//falha o desafio
                 >
                     Falhei
                 </button>
@@ -28,14 +45,14 @@ return(
                 <button
                  type='button'
                  className={styles.ChallengeSuccededButton}
-
+                 onClick = {handleChallengeSucceeded}//completa o desafio
                  >
                     Completei
                 </button>
 
             </footer>
             </div>
-        ):(
+        ):(//cronometro desativado
             <div className={styles.ChallegeNotActive}>
             <strong>Finalize um ciclo para receber um desafio</strong>
             <p>
